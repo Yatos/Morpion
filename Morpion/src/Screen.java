@@ -11,9 +11,9 @@ public class Screen extends JPanel
 	 */
 	private static final long serialVersionUID = 1L;
 	Fenetre f;
-	Bouton b1=new Bouton();
-	Bouton b2=new Bouton();
-	Bouton b3=new Bouton();
+	public Bouton b1=new Bouton();
+	public Bouton b2=new Bouton();
+	public Bouton b3=new Bouton();
 	public Screen(Fenetre f)
 	{
 		int y= f.getHeight();
