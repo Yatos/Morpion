@@ -5,5 +5,6 @@ public class Morpion
 	{
 		Fenetre f = new Fenetre();
 		System.out.println("Hello Tistou");
+		System.out.println("Hello  batard");
 	}
 }
