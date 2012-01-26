@@ -9,8 +9,8 @@ public class Fenetre extends JFrame{
 
 	public Fenetre(){
          //Définit un titre pour votre fenêtre
-         this.setTitle("Ma première fenêtre java");
-         this.setSize(300, 450);
+         this.setTitle("Morpion Projekt v0.1");
+         this.setSize(320, 480);
          //Nous allons maintenant dire à notre objet de se positionner au centre
          this.setLocationRelativeTo(null);
          //Ferme-toi lorsqu'on clique sur "Fermer" !
