@@ -1,3 +1,5 @@
+import java.awt.Color;
+
 import javax.swing.JFrame;
  
 public class Fenetre extends JFrame{
@@ -15,9 +17,9 @@ public class Fenetre extends JFrame{
          this.setLocationRelativeTo(null);
          //Ferme-toi lorsqu'on clique sur "Fermer" !
          this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
          this.setVisible(true);
          Screen screen = new Screen(this);
          this.setContentPane(screen);
+      
      }
 }

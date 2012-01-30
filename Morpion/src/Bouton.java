@@ -16,9 +16,10 @@ public class Bouton extends JButton implements MouseListener{
 
 public Bouton(){
 	 this.addMouseListener(this);
-	 this.setBorderPainted(false);
+	 //this.setBorderPainted(false);
 	 this.setContentAreaFilled(false);//enleve couleur bleu du bouton
-	 //this.setFocusPainted(false);
+	 this.setFocusPainted(false);
+
         
 
 }
