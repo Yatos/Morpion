@@ -1,3 +1,5 @@
+package morpion.graphic;
+
 import java.awt.Color;
 
 import javax.swing.JFrame;

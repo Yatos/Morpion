@@ -1,3 +1,4 @@
+package morpion.graphic;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseListener;
 

@@ -1,9 +1,11 @@
+package morpion.graphic;
 import java.awt.Color;
 import java.awt.Graphics;
 
 
 
 import javax.swing.JPanel;
+
  
 public class Screen extends JPanel 
 {

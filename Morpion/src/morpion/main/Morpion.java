@@ -1,3 +1,6 @@
+package morpion.main;
+import morpion.graphic.Fenetre;
+
 
 public class Morpion 
 {
