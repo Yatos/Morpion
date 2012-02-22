@@ -1,5 +1,4 @@
 package morpion.main;
-import morpion.graphic.AskBeClientOrServer;
 import morpion.graphic.Fenetre;
 
 
@@ -9,6 +8,5 @@ public class Morpion
 	{
 		Fenetre f = new Fenetre();
 		System.out.println("Bastardo et Khurdz sont dans la place pwouu !");
-		f.setContentPane(new AskBeClientOrServer());
 	}
 }
