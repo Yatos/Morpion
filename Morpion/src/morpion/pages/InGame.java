@@ -1,4 +1,4 @@
-package morpion.graphic;
+package morpion.pages;
 import java.awt.Color;
 import java.awt.Graphics;
 
@@ -6,19 +6,21 @@ import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
+import morpion.pages.elements.Bouton;
+
  
-public class Screen extends JPanel 
+public class InGame extends JPanel 
 {
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
-	Fenetre f;
+	PagesController f;
 	public Bouton b1=new Bouton();
 	public Bouton b2=new Bouton();
 	public Bouton b3=new Bouton();
 	
-	public Screen(Fenetre f)
+	public InGame(PagesController f)
 	{
 		int y= f.getHeight();
 		int x=f.getWidth();

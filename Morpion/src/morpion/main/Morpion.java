@@ -1,14 +1,15 @@
 package morpion.main;
-import morpion.graphic.AskBeClientOrServer;
-import morpion.graphic.Fenetre;
+import morpion.pages.AskBeClientOrServer;
+import morpion.pages.PagesController;
 
 
 public class Morpion 
 {
 	public static void main(String args[])
 	{
-		Fenetre f = new Fenetre();
+		PagesController f = new PagesController();
 		System.out.println("Bastardo et Khurdz sont dans la place pwouu !");
-		f.setContentPane(new AskBeClientOrServer());
+		f.chargePageAskBeClientOrServer();
+		
 	}
 }
