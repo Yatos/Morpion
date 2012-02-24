@@ -15,21 +15,22 @@ public class ConnexionServer extends JPanel
 	
 	public ConnexionServer(PagesController f)
 	{
+		this.setLayout(null);
 		this.f=f;
 		y= f.getHeight();
    	 	x=f.getWidth();
-   	 	messageEtatServer.setSize(50, 50);
-   	 	messageEtatServer.setLocation(130, 100);
+   	 messageEtatServer.setSize(200, 50);
+	 	messageEtatServer.setLocation(10, 100);
    	 	this.add(messageEtatServer);
 
-   	 	
-   
 	}
 	public void paintComponent(Graphics g)
 	{
 		
 		 y= f.getHeight();
     	 x=f.getWidth();
+    	 messageEtatServer.setSize(200, 50);
+    	 	messageEtatServer.setLocation(10, 100);
     	
 	}
 	

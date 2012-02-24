@@ -5,6 +5,7 @@ import java.awt.event.MouseListener;
 import javax.swing.JButton;
 
 import morpion.pages.PagesController;
+import morpion.pages.Refresher;
 import morpion.server.Server;
 
 
@@ -52,6 +53,8 @@ public void mousePressed(MouseEvent e) {
 	// TODO Auto-generated method stub
 	System.out.println("I m a Server");
 	pagesController.chargePageConnexionServer();
+	pagesController.validate();
+	//Refresher.startRefresher(pagesController);
 	Server.startServer();
 	
 	

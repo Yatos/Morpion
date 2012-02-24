@@ -9,6 +9,7 @@ public class PagesController extends JFrame{
 	 * 
 	 */
 	private static final long serialVersionUID = 1L;
+	
 
 	public PagesController(){
          //D�finit un titre pour votre fen�tre
@@ -42,13 +43,9 @@ public class PagesController extends JFrame{
 	
 	public void chargePageConnexionServer()
 	{
-		ConnexionServer connexionServer = new ConnexionServer(this);
-		setContentPane(connexionServer);
 		setBackground(Color.WHITE);
-		System.out.println("allo2");
-		//connexionServer.repaint();
-		//repaint();
-		
+		ConnexionServer connexionServer= new ConnexionServer(this);
+		setContentPane(connexionServer);
 	}
 	
 	

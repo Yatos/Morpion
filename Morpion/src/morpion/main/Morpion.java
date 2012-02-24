@@ -1,6 +1,7 @@
 package morpion.main;
 import morpion.pages.AskBeClientOrServer;
 import morpion.pages.PagesController;
+import morpion.pages.Refresher;
 
 
 public class Morpion 
