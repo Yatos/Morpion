@@ -10,10 +10,18 @@ import java.net.Socket;
 import java.net.UnknownHostException;
 import java.io.PrintWriter;
 
-public class Server {
+public class Server implements Runnable
+{
+	private static  Thread t;
 	
-	public static void main(String[] zero) {
+	public static void startServer() {
 		
+		t= new Thread(new Server());
+		t.start();
+	}
+
+	@Override
+	public void run() {
 		ServerSocket socketserver  ;
 		Socket socketduserveur ;
 		BufferedReader in;
@@ -36,6 +44,7 @@ public class Server {
 			
 			e.printStackTrace();
 		}
+		
 	}
 
 }

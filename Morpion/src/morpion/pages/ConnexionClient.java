@@ -15,8 +15,6 @@ public class ConnexionClient extends JPanel
 		this.f=f;
 		y= f.getHeight();
    	 	x=f.getWidth();
-   	 	this.setBackground(Color.WHITE);
-   
 	}
 	public void paintComponent(Graphics g)
 	{
@@ -25,5 +23,7 @@ public class ConnexionClient extends JPanel
     	 x=f.getWidth();
     	
 	}
+	
+	
 	
 }

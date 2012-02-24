@@ -12,7 +12,8 @@ import java.net.UnknownHostException;
 public class Client 
 {
 	
-	public static void main(String[] zero) {
+	public  static void startClient() 
+	{
 		
 		
 		Socket socket;

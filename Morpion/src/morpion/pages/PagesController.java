@@ -45,7 +45,9 @@ public class PagesController extends JFrame{
 		ConnexionServer connexionServer = new ConnexionServer(this);
 		setContentPane(connexionServer);
 		setBackground(Color.WHITE);
-		repaint();
+		System.out.println("allo2");
+		//connexionServer.repaint();
+		//repaint();
 		
 	}
 	

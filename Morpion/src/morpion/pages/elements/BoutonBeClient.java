@@ -4,6 +4,7 @@ import java.awt.event.MouseListener;
 
 import javax.swing.JButton;
 
+import morpion.client.Client;
 import morpion.pages.PagesController;
 
 
@@ -26,6 +27,9 @@ public BoutonBeClient(PagesController pagesController)
 	 this.setContentAreaFilled(false);//enleve couleur bleu du bouton
 	 this.setFocusPainted(false);
 	 this.setFocusCycleRoot(true);
+	 
+		//this.setOpaque(false);
+	//this.setBorderPainted(false);// enleve contour
 
 }
 
@@ -51,7 +55,7 @@ public void mousePressed(MouseEvent e) {
 	// TODO Auto-generated method stub
 	System.out.println("I m a client");
 	pagesController.chargePageConnexionClient();
-	
+	Client.startClient();
 	
 }
 

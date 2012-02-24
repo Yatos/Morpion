@@ -5,6 +5,7 @@ import java.awt.event.MouseListener;
 import javax.swing.JButton;
 
 import morpion.pages.PagesController;
+import morpion.server.Server;
 
 
 public class BoutonBeServer extends JButton implements MouseListener{
@@ -17,6 +18,7 @@ public class BoutonBeServer extends JButton implements MouseListener{
 	 */
 	PagesController pagesController;
 	private static final long serialVersionUID = 1L;
+	
 
 public BoutonBeServer(PagesController pagesController)
 {
@@ -48,8 +50,9 @@ public void mouseExited(MouseEvent e) {
 @Override
 public void mousePressed(MouseEvent e) {
 	// TODO Auto-generated method stub
-	System.out.println("I m a client");
+	System.out.println("I m a Server");
 	pagesController.chargePageConnexionServer();
+	Server.startServer();
 	
 	
 }
